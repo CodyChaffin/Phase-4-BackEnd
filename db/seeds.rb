@@ -1,3 +1,11 @@
+puts "Deleting user/video/comment data..."
+User.destroy_all
+Video.destroy_all
+Comment.destroy_all
+
+
+
+
 "seeding users"
 user1 = User.create(name: "Cody", email: "cmchaff14@yahoo.com") 
 user2 = User.create(name: "Sowande", email: "swanDaBest@gamil.com")
